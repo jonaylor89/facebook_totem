@@ -1,0 +1,30 @@
+[package]
+name = "facebook_totem"
+version = "0.1.0"
+edition = "2024"
+authors = ["Johannes Naylor <jonaylor89@gmail.com>"]
+description = "A tool for extracting and analyzing Facebook post data"
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/jonaylor89/facebook_totem"
+homepage = "https://github.com/jonaylor89/facebook_totem"
+documentation = "https://docs.rs/facebook_totem"
+keywords = ["facebook", "osint", "social-media", "data-extraction", "analysis"]
+categories = ["command-line-utilities", "web-programming"]
+exclude = ["tests/*", "examples/*", ".github/*"]
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.40", features = ["derive"] }
+csv = "1.3.1"
+fake-useragent = "0.1.3"
+indicatif = "0.18.0"
+reqwest = { version = "0.12.22", features = ["json", "cookies"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+tokio = { version = "1.46.1", features = ["full"] }
+
+[dev-dependencies]
+mockito = "1.7.0"
+tempfile = "3.20.0"
+tokio-test = "0.4.4"
