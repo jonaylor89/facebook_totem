@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1](https://github.com/jonaylor89/facebook_totem/compare/v0.1.0...v0.1.1) - 2025-07-07
+
+### Other
+
+- release v0.1.0
+- init
+
 ## [0.1.0](https://github.com/jonaylor89/facebook_totem/releases/tag/v0.1.0) - 2025-07-07
 
 ### Other

@@ -1,6 +1,6 @@
 [package]
 name = "facebook_totem"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Johannes Naylor <jonaylor89@gmail.com>"]
 description = "A tool for extracting and analyzing Facebook post data"
